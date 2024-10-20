@@ -1,0 +1,38 @@
+
+.container{
+width: 60%;
+margin: 50px auto;
+
+
+& h1{
+    text-align: center;
+}
+
+}
+
+
+
+.img-gallary{
+    float: left;
+    width: 180px;
+    border: 1px solid #ccc;
+    margin: 5px;
+
+}
+
+.img-gallary > img{
+    width: 100%;
+    height: auto;
+  
+}
+
+
+.desc > p{
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.img-gallary:hover{
+    border: 1px solid #777;
+}
